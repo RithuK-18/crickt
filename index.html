@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Bats Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .main-section {
+            padding: 20px;
+        }
+        .bat-brand {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .bat-brand img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .bat-brand .description {
+            flex-grow: 1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+    </header>
+    <div class="main-section">
+        <div class="bat-brand">
+            <img src="bat-brand-image.jpg" alt="Bat Brand Image">
+            <div class="description">
+                <h2>Brand Name</h2>
+                <p>Description of the cricket bat brand, including its features and benefits.</p>
+            </div>
+        </div>
+        <!-- Repeat the .bat-brand div for each bat brand you want to showcase -->
+    </div>
+    <footer>
+        &copy; 2023 Cricket Bats Company. All rights reserved.
+    </footer>
+    <form>
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
